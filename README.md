@@ -34,7 +34,7 @@ Get pyrogram (p)  `SESSION` from here:
 ### ⚔ Self-hosting (For Devs) 
 ```sh
 # Install Git First (apt-get install git)
-$ git clone https://github.com/W2HGalaxy-OP/LEGENDMUSIC
+$ git clone https://github.com/LEGEND-OS/LEGENDMUSIC
 $ cd LEGENDMUSIC
 # Upgrade sources
 # Install All Requirements 

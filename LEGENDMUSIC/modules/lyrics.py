@@ -1,4 +1,4 @@
-# Copyright (C) 2021 W2HGalaxy-OP
+# Copyright (C) 2021 LEGEND-OS
 
 
 # This file is part of Daisy (Telegram Bot)
