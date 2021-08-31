@@ -18,9 +18,9 @@ jobs:
 
         with:
 
-          find: "W2HGalaxy-OP"
+          find: "david99q"
 
-          replace: "LEGEND-OS"
+          replace: "Legend_Mr_Hacker"
 
       - name: Create Pull Request
 
