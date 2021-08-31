@@ -18,9 +18,9 @@ jobs:
 
         with:
 
-          find: "https://telegra.ph/file/bfdae5228dbe6d1c92f93.jpg"
+          find: "W2HMusic"
 
-          replace: "https://telegra.ph/file/40b4d276d480bb95eb82c.jpg"
+          replace: "LegendMusicbot"
 
       - name: Create Pull Request
 
