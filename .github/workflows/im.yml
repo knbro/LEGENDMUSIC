@@ -18,9 +18,9 @@ jobs:
 
         with:
 
-          find: "W2HMusic"
+          find: "W2HSupport"
 
-          replace: "LegendMusicbot"
+          replace: "Legend_Userbot"
 
       - name: Create Pull Request
 
