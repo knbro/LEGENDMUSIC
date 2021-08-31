@@ -18,9 +18,9 @@ jobs:
 
         with:
 
-          find: "W2HMUSIC1"
+          find: "W2HGalaxy-OP"
 
-          replace: "LEGENDMUSIC"
+          replace: "LEGEND-OS"
 
       - name: Create Pull Request
 
