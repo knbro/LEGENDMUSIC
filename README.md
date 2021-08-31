@@ -3,9 +3,9 @@
 ### A bot that can play music on Telegram Group and Channel Voice Chats
 
 <p align="center">
-  <img src="https://telegra.ph/file/bfdae5228dbe6d1c92f93.jpg">
+  <img src="https://telegra.ph/file/40b4d276d480bb95eb82c.jpg">
 </p>
-
+#Legend_Mr_Hacker 
 <h2> Features 🔥 </h2>
 
 - Thumbnail Support
