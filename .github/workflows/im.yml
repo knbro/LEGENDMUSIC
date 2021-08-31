@@ -18,9 +18,9 @@ jobs:
 
         with:
 
-          find: "W2HSupport"
+          find: "HellBot"
 
-          replace: "Legend_Userbot"
+          replace: "LegendBot"
 
       - name: Create Pull Request
 
