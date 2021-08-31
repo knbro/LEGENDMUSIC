@@ -1,9 +1,9 @@
 {
-  "name": "W2HMUSIC1",
+  "name": "LEGENDMUSIC",
   "logo": "https://telegra.ph/file/36ff1b571aa11df5812de.jpg",
   "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by PyTgCalls.",
   "keywords": ["music", "voicechat", "telegram"],
-  "repository": "https://github.com/W2HGalaxy-OP/W2HMUSIC1",
+  "repository": "https://github.com/LEGEND-OS/LEGENDMUSIC",
   "stack": "heroku-20",
   "buildpacks": [
    {
@@ -34,12 +34,12 @@
     "SUPPORT_GROUP": {
       "description": "Your MusicPlayer support group without @ [Leave this if you don't have one]",
       "required": false,
-      "value": "W2HSupport"
+      "value": "Legend_Userbot"
     },
     "PROJECT_NAME": {
       "description": "Your MusicPlayer project Name.",
       "required": false,
-      "value": "W2HMUSIC1 "
+      "value": "LEGENDMUSIC "
     },
     "ASSISTANT_NAME": {
       "description": "Your MusicPlayer's assistant Username without @.",
@@ -53,12 +53,12 @@
     "BG_IMAGE": {
       "description": "BG image of bot (Use transparent one) [IGNORE].",
       "required": false,
-      "value": " https://telegra.ph/file/bfdae5228dbe6d1c92f93.jpg"
+      "value": ""
     },     
     "UPDATES_CHANNEL": {
       "description": "Updates Channel without @ [Leave this if you don't have one].",
       "required": false,
-      "value": "W2H_Userbot"
+      "value": "its_legendbot"
     },    
     "API_ID": {
       "description": "App ID from my.telegram.org/apps",
