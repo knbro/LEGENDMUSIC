@@ -18,7 +18,7 @@
 import asyncio
 from os import path
 
-from W2HMUSIC1.helpers.errors import FFmpegReturnCodeError
+from LEGENDMUSIC.helpers.errors import FFmpegReturnCodeError
 
 
 async def convert(file_path: str) -> str:

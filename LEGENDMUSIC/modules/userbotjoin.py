@@ -1,4 +1,4 @@
-# W2HMUSIC1 (Telegram bot project )
+# LEGENDMUSIC (Telegram bot project )
 # Copyright (C) 2021  Inukaasith
 
 # This program is free software: you can redistribute it and/or modify
@@ -19,10 +19,10 @@ from pyrogram import Client
 from pyrogram import filters
 from pyrogram.errors import UserAlreadyParticipant
 import asyncio
-from W2HMUSIC1.helpers.decorators import authorized_users_only
-from W2HMUSIC1.helpers.decorators import errors
-from W2HMUSIC1.services.callsmusic import client as USER
-from W2HMUSIC1.config import SUDO_USERS
+from LEGENDMUSIC.helpers.decorators import authorized_users_only
+from LEGENDMUSIC.helpers.decorators import errors
+from LEGENDMUSIC.services.callsmusic import client as USER
+from LEGENDMUSIC.config import SUDO_USERS
 
 @Client.on_message(filters.command(["userbotjoin"]) & ~filters.private & ~filters.bot)
 @authorized_users_only

@@ -20,7 +20,7 @@ from typing import Union
 
 from pyrogram import filters
 
-from W2HMUSIC1.config import COMMAND_PREFIXES
+from LEGENDMUSIC.config import COMMAND_PREFIXES
 
 other_filters = filters.group & ~filters.edited & ~filters.via_bot & ~filters.forwarded
 other_filters2 = (

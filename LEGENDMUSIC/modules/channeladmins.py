@@ -20,15 +20,15 @@ from pyrogram import Client
 from pyrogram import filters
 from pyrogram.types import Message
 
-from W2HMUSIC1.config import que
-from W2HMUSIC1.function.admins import set
-from W2HMUSIC1.helpers.channelmusic import get_chat_id
-from W2HMUSIC1.helpers.decorators import authorized_users_only
-from W2HMUSIC1.helpers.decorators import errors
-from W2HMUSIC1.helpers.filters import command 
-from W2HMUSIC1.helpers.filters import other_filters
-from W2HMUSIC1.services.callsmusic import callsmusic
-from W2HMUSIC1.services.queues import queues
+from LEGENDMUSIC.config import que
+from LEGENDMUSIC.function.admins import set
+from LEGENDMUSIC.helpers.channelmusic import get_chat_id
+from LEGENDMUSIC.helpers.decorators import authorized_users_only
+from LEGENDMUSIC.helpers.decorators import errors
+from LEGENDMUSIC.helpers.filters import command 
+from LEGENDMUSIC.helpers.filters import other_filters
+from LEGENDMUSIC.services.callsmusic import callsmusic
+from LEGENDMUSIC.services.queues import queues
 
 
 @Client.on_message(filters.command(["channelpause","cpause"]) & filters.group & ~filters.edited)

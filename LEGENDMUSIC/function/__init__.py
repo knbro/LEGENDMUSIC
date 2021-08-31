@@ -1,5 +1,5 @@
-from W2HMUSIC1.function.admins import admins
-from W2HMUSIC1.function.admins import get
-from W2HMUSIC1.function.admins import set
+from LEGENDMUSIC.function.admins import admins
+from LEGENDMUSIC.function.admins import get
+from LEGENDMUSIC.function.admins import set
 
 __all__ = ["set", "get", "admins"]

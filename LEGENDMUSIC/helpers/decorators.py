@@ -20,8 +20,8 @@ from typing import Callable
 from pyrogram import Client
 from pyrogram.types import Message
 
-from W2HMUSIC1.config import SUDO_USERS
-from W2HMUSIC1.helpers.admins import get_administrators
+from LEGENDMUSIC.config import SUDO_USERS
+from LEGENDMUSIC.helpers.admins import get_administrators
 
 
 def errors(func: Callable) -> Callable:

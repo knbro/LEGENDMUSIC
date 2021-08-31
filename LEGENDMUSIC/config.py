@@ -1,4 +1,4 @@
-# W2HMUSIC1- Telegram bot project
+# LEGENDMUSIC- Telegram bot project
 # Copyright (C) 2021  Roj Serbest
 # Copyright (C) 2021  Inuka Asith
 # This program is free software: you can redistribute it and/or modify
@@ -35,8 +35,8 @@ API_HASH = getenv("API_HASH")
 BOT_USERNAME = getenv("BOT_USERNAME")
 ASSISTANT_NAME = getenv("ASSISTANT_NAME", "W2HMusic")
 SUPPORT_GROUP = getenv("SUPPORT_GROUP", "W2HSupport")
-PROJECT_NAME = getenv("PROJECT_NAME", "W2HMUSIC1 ")
-SOURCE_CODE = getenv("SOURCE_CODE", "github.com/W2HGalaxy-OP/W2HMUSIC1")
+PROJECT_NAME = getenv("PROJECT_NAME", "LEGENDMUSIC ")
+SOURCE_CODE = getenv("SOURCE_CODE", "github.com/W2HGalaxy-OP/LEGENDMUSIC")
 DURATION_LIMIT = int(getenv("DURATION_LIMIT", "7"))
 ARQ_API_KEY = getenv("ARQ_API_KEY", None)
 PMPERMIT = getenv("PMPERMIT", None)

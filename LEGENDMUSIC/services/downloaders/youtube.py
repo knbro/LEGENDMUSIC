@@ -20,8 +20,8 @@ from os import path
 
 from youtube_dl import YoutubeDL
 
-from W2HMUSIC1.config import DURATION_LIMIT
-from W2HMUSIC1.helpers.errors import DurationLimitError
+from LEGENDMUSIC.config import DURATION_LIMIT
+from LEGENDMUSIC.helpers.errors import DurationLimitError
 
 ydl_opts = {
     "format": "bestaudio/best",

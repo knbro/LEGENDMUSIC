@@ -1,4 +1,4 @@
-# W2HMUSIC1 (Telegram bot project)
+# LEGENDMUSIC (Telegram bot project)
 # Copyright (C) 2021  Inukaasith
 # Copyright (C) 2021  TheHamkerCat (Python_ARQ)
 # This program is free software: you can redistribute it and/or modify
@@ -38,25 +38,25 @@ from pyrogram.types import Message
 from Python_ARQ import ARQ
 from youtube_search import YoutubeSearch
 
-from W2HMUSIC1.config import ARQ_API_KEY
-from W2HMUSIC1.config import BOT_NAME as bn
-from W2HMUSIC1.config import DURATION_LIMIT
-from W2HMUSIC1.config import UPDATES_CHANNEL as updateschannel
-from W2HMUSIC1.config import que
-from W2HMUSIC1.function.admins import admins as a
-from W2HMUSIC1.helpers.admins import get_administrators
-from W2HMUSIC1.helpers.channelmusic import get_chat_id
-from W2HMUSIC1.helpers.errors import DurationLimitError
-from W2HMUSIC1.helpers.decorators import errors
-from W2HMUSIC1.helpers.decorators import authorized_users_only
-from W2HMUSIC1.helpers.filters import command
-from W2HMUSIC1.helpers.filters import other_filters
-from W2HMUSIC1.helpers.gets import get_file_name
-from W2HMUSIC1.services.callsmusic import callsmusic
-from W2HMUSIC1.services.callsmusic import client as USER
-from W2HMUSIC1.services.converter.converter import convert
-from W2HMUSIC1.services.downloaders import youtube
-from W2HMUSIC1.services.queues import queues
+from LEGENDMUSIC.config import ARQ_API_KEY
+from LEGENDMUSIC.config import BOT_NAME as bn
+from LEGENDMUSIC.config import DURATION_LIMIT
+from LEGENDMUSIC.config import UPDATES_CHANNEL as updateschannel
+from LEGENDMUSIC.config import que
+from LEGENDMUSIC.function.admins import admins as a
+from LEGENDMUSIC.helpers.admins import get_administrators
+from LEGENDMUSIC.helpers.channelmusic import get_chat_id
+from LEGENDMUSIC.helpers.errors import DurationLimitError
+from LEGENDMUSIC.helpers.decorators import errors
+from LEGENDMUSIC.helpers.decorators import authorized_users_only
+from LEGENDMUSIC.helpers.filters import command
+from LEGENDMUSIC.helpers.filters import other_filters
+from LEGENDMUSIC.helpers.gets import get_file_name
+from LEGENDMUSIC.services.callsmusic import callsmusic
+from LEGENDMUSIC.services.callsmusic import client as USER
+from LEGENDMUSIC.services.converter.converter import convert
+from LEGENDMUSIC.services.downloaders import youtube
+from LEGENDMUSIC.services.queues import queues
 
 aiohttpsession = aiohttp.ClientSession()
 chat_id = None
@@ -963,7 +963,7 @@ async def jiosaavn(client: Client, message_: Message):
                     # print(e)
                     await lel.edit(
                         f"<b>🔴 Flood Wait Error 🔴 \nUser {user.first_name} couldn't join your group due to heavy requests for userbot! Make sure user is not banned in group."
-                        "\n\nOr manually add @W2HMUSIC1 to your Group and try again</b>",
+                        "\n\nOr manually add @LEGENDMUSIC to your Group and try again</b>",
                     )
     try:
         await USER.get_chat(chid)

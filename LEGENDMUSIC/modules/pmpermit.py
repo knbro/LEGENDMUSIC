@@ -1,4 +1,4 @@
-# W2HMUSIC1 (Telegram bot project )
+# LEGENDMUSIC (Telegram bot project )
 # Copyright (C) 2021  Inukaasith
 
 # This program is free software: you can redistribute it and/or modify
@@ -16,11 +16,11 @@
 
 from pyrogram import Client
 import asyncio
-from W2HMUSIC1.config import SUDO_USERS
-from W2HMUSIC1.config import PMPERMIT
+from LEGENDMUSIC.config import SUDO_USERS
+from LEGENDMUSIC.config import PMPERMIT
 from pyrogram import filters
 from pyrogram.types import Message
-from W2HMUSIC1.services.callsmusic import client as USER
+from LEGENDMUSIC.services.callsmusic import client as USER
 
 PMSET =True
 pchats = []

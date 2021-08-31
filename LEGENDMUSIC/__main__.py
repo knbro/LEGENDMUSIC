@@ -1,4 +1,4 @@
-# W2HMUSIC1 (Telegram bot project)
+# LEGENDMUSIC (Telegram bot project)
 # Copyright (C) 2021  Inuka Asith & Rojserbest
 
 # This program is free software: you can redistribute it and/or modify
@@ -18,11 +18,11 @@
 import requests
 from pyrogram import Client as Bot
 
-from W2HMUSIC1.config import API_HASH
-from W2HMUSIC1.config import API_ID
-from W2HMUSIC1.config import BG_IMAGE
-from W2HMUSIC1.config import BOT_TOKEN
-from W2HMUSIC1.services.callsmusic import run
+from LEGENDMUSIC.config import API_HASH
+from LEGENDMUSIC.config import API_ID
+from LEGENDMUSIC.config import BG_IMAGE
+from LEGENDMUSIC.config import BOT_TOKEN
+from LEGENDMUSIC.services.callsmusic import run
 
 response = requests.get(BG_IMAGE)
 file = open("./etc/foreground.png", "wb")
@@ -34,7 +34,7 @@ bot = Bot(
     API_ID,
     API_HASH,
     bot_token=BOT_TOKEN,
-    plugins=dict(root="W2HMUSIC1.modules"),
+    plugins=dict(root="LEGENDMUSIC.modules"),
 )
 
 bot.start()

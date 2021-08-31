@@ -1,4 +1,4 @@
-# W2HMUSIC1 (Telegram bot project )
+# LEGENDMUSIC (Telegram bot project )
 # Copyright (C) 2021  Inukaasith
 
 # This program is free software: you can redistribute it and/or modify
@@ -15,11 +15,11 @@
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 import os
-from W2HMUSIC1.config import SOURCE_CODE
-from W2HMUSIC1.config import ASSISTANT_NAME
-from W2HMUSIC1.config import PROJECT_NAME
-from W2HMUSIC1.config import SUPPORT_GROUP
-from W2HMUSIC1.config import UPDATES_CHANNEL
+from LEGENDMUSIC.config import SOURCE_CODE
+from LEGENDMUSIC.config import ASSISTANT_NAME
+from LEGENDMUSIC.config import PROJECT_NAME
+from LEGENDMUSIC.config import SUPPORT_GROUP
+from LEGENDMUSIC.config import UPDATES_CHANNEL
 class Messages():
       START_MSG = "**Hello 👋 [{}](tg://user?id={})!**\n\n🤖 I am an advanced bot created for playing music in the voice chats of Telegram Groups & Channels.\n\n✅ Send me /help for more info."
       HELP_MSG = [

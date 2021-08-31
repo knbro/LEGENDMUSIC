@@ -1,4 +1,4 @@
-# W2HMUSIC1 (Telegram bot project )
+# LEGENDMUSIC (Telegram bot project )
 # Copyright (C) 2021  Inukaasith
 
 # This program is free software: you can redistribute it and/or modify
@@ -15,18 +15,18 @@
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 import logging
-from W2HMUSIC1.modules.msg import Messages as tr
+from LEGENDMUSIC.modules.msg import Messages as tr
 from pyrogram import Client
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup
 from pyrogram.types import InlineKeyboardButton
 from pyrogram.types import Message
-from W2HMUSIC1.config import SOURCE_CODE
-from W2HMUSIC1.config import ASSISTANT_NAME
-from W2HMUSIC1.config import PROJECT_NAME
-from W2HMUSIC1.config import SUPPORT_GROUP
-from W2HMUSIC1.config import UPDATES_CHANNEL
-from W2HMUSIC1.config import BOT_USERNAME
+from LEGENDMUSIC.config import SOURCE_CODE
+from LEGENDMUSIC.config import ASSISTANT_NAME
+from LEGENDMUSIC.config import PROJECT_NAME
+from LEGENDMUSIC.config import SUPPORT_GROUP
+from LEGENDMUSIC.config import UPDATES_CHANNEL
+from LEGENDMUSIC.config import BOT_USERNAME
 logging.basicConfig(level=logging.INFO)
 
 @Client.on_message(filters.private & filters.incoming & filters.command(['start']))

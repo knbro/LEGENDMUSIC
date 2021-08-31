@@ -5,4 +5,4 @@ RUN python3.9 -m pip install -U pip
 COPY . /app
 WORKDIR /app
 RUN python3.9 -m pip install -U -r requirements.txt
-CMD python3.9 -m W2HMUSIC1
+CMD python3.9 -m LEGENDMUSIC

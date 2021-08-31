@@ -34,13 +34,13 @@ Get pyrogram (p)  `SESSION` from here:
 ### ⚔ Self-hosting (For Devs) 
 ```sh
 # Install Git First (apt-get install git)
-$ git clone https://github.com/W2HGalaxy-OP/W2HMUSIC1
-$ cd W2HMUSIC1
+$ git clone https://github.com/W2HGalaxy-OP/LEGENDMUSIC
+$ cd LEGENDMUSIC
 # Upgrade sources
 # Install All Requirements 
 $ pip3 install -U -r requirements.txt
 # Fork This Repo and fill config.py vars with your own values.Then Start The Bot
-$ python3 -m W2HMUSIC1
+$ python3 -m LEGENDMUSIC
 ```
 
 ### Commands for Group 🛠
